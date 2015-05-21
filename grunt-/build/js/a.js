@@ -1,0 +1,2 @@
+/*! jihua 2015-05-19 */
+var person={};person.must="breath";var man={};man.prototype=person,man.sex="male",man.body="strong",man.hair="shot",man.skin="black",man.setName=function(a){this.Name=a},man.getName=function(){return this.name},man.work=function(a){this.missin=a};var like="sports",succ="yeap",future="unbknow";man.hoby=function(a){return"play"+a};var hobyArr=["baskateball","football"];

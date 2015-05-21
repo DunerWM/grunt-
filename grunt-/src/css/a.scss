@@ -1,0 +1,25 @@
+$dom : #ccc;
+body{
+	color : $dom;
+}
+
+$side : left;
+$rSide : right;
+.rounded {
+	border-#{$side}-radius: 5px;
+}
+.name {
+	border-#{$side}-radius: 5px;
+}
+.note {
+	background-color: $dom;
+}
+.section {
+	padding-#{$rSide}: 10px;
+}
+p {
+	padding-#{$rSide}: 10px;
+}
+h1 {
+	padding-#{$rSide}: 10px;
+}
